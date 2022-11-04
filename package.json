@@ -1,0 +1,23 @@
+{
+  "name": "apidoc-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "demo":"apidoc -i ./example -o ./docs -t ./template -c ./example/apidoc.json -v"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gitawego/apidoc-theme.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gitawego/apidoc-theme/issues"
+  },
+  "homepage": "https://github.com/gitawego/apidoc-theme#readme",
+  "devDependencies": {
+    "apidoc": "^0.53.1"
+  }
+}
