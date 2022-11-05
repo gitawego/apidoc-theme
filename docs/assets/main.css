@@ -936,7 +936,24 @@ button.version {
 button#version:hover,
 button.version:hover {
   background-color: transparent;
-  border-color:#b9b9b9;
+  border-color: #b9b9b9;
+}
+
+button.btn-danger {
+  color: #fff;
+  background-color: #d9534f;
+  border-color: #d43f3a;
+}
+button.btn-danger:hover {
+  color: #fff;
+  background-color: #c9302c;
+  border-color: #ac2925;
+}
+
+.btn-group .btn-success:disabled {
+  font-size: 12px;
+  padding: 3px 8px;
+  border: 1px solid transparent;
 }
 
 .nav-tabs>li.active>a,
