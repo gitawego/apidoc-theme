@@ -601,8 +601,12 @@
       {{/if}}
     {{/if}}
 
-    <span class="method meth-{{toLowerCase compare.type}}">{{compare.type}}</span>
-    <pre data-type="{{toLowerCase article.type}}" class="language-html">{{{showDiff article.url compare.url}}}</pre>
+    <div class="method-block-container">
+      <div>
+        <span class="method meth-{{toLowerCase compare.type}}">{{compare.type}}</span>
+      </div>
+      <pre data-type="{{toLowerCase article.type}}" class="language-html">{{{showDiff article.url compare.url}}}</pre>
+    </div>
 
     {{subTemplate "article-compare-permission" article=article compare=compare}}
 

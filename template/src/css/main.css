@@ -875,6 +875,11 @@ pre .typ-options {
   margin-bottom: 15px;
 }
 
+.method-block-container :not(pre)>code[class*="language-"],
+.method-block-container pre[class*="language-"] {
+  border-radius: 15px;
+}
+
 .method {
   font-size: 12px;
 }
@@ -944,6 +949,7 @@ button.btn-danger {
   background-color: #d9534f;
   border-color: #d43f3a;
 }
+
 button.btn-danger:hover {
   color: #fff;
   background-color: #c9302c;
