@@ -1,6 +1,6 @@
 # apidoc-theme
 
-a swagger like theme for [apidoc](https://github.com/apidoc/apidoc) >= v5.x
+a swagger like theme for [apidoc](https://github.com/apidoc/apidoc) >= v0.5x
 
 see [demo](https://gitawego.github.io/apidoc-theme/)
 
