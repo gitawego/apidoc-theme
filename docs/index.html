@@ -34,7 +34,7 @@
         {{/if}}
       {{else}}
         <li class="{{#if hidden}}hide {{/if}}" data-group="{{group}}" data-name="{{name}}" data-version="{{version}}">
-          <a href="#api-{{group}}-{{name}}" title="{{url}}" data-group="show-api-{{group}}" data-name="show-api-{{group}}-{{name}}" class="nav-list-item show-api api-{{group}}-{{name}}-init"><div class="pull-left typ-name typ-{{toLowerCase type}}"><span>{{type}}</span></div>{{title}}<div class="nav-list-url-item hide">{{url}}</div></a>
+          <a href="#api-{{group}}-{{name}}" title="{{url}}" data-group="show-api-{{group}}" data-name="show-api-{{group}}-{{name}}" class="nav-list-item show-api api-{{group}}-{{name}}-init"><div class="pull-left typ-name typ-{{toLowerCase type}}"><span>{{toLowerCase type}}</span></div>{{title}}<div class="nav-list-url-item hide">{{url}}</div></a>
         </li>
       {{/if}}
     {{/if}}
