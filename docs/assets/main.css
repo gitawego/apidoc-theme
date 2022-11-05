@@ -893,6 +893,16 @@ pre .typ-options {
 .sidenav {
   color: var(--dark-gray);
   background-color: initial;
+  width: 18%;
+}
+
+.sidenav-search {
+  background-color: transparent;
+  width: 18%;
+}
+
+#content{
+  margin-left: 18%;
 }
 
 .sidenav>li>a {
@@ -913,9 +923,11 @@ pre .typ-options {
   background-color: #ebebeb;
 }
 
-.sidenav-search {
-  background-color: transparent;
+.sidenav>li>a{
+  font-size: 12px;
 }
+
+
 
 .sidenav-search .search {
   border-radius: 15px;
@@ -974,4 +986,54 @@ button.btn-danger:hover {
 
 .nav-tabs>li {
   margin-bottom: -2px;
+}
+
+
+.sidenav::-webkit-scrollbar-track
+{
+
+  background-color: #F5F5F5;
+}
+
+.sidenav::-webkit-scrollbar
+{
+  width: 2px;
+  background-color: #F5F5F5;
+}
+
+.sidenav::-webkit-scrollbar-thumb
+{
+  background-color: #979797;
+}
+
+body::-webkit-scrollbar-track
+{
+  background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+body::-webkit-scrollbar-thumb
+{
+  background-color: #979797;
+}
+
+.modal-body::-webkit-scrollbar-track
+{
+  background-color: #F5F5F5;
+}
+
+.modal-body::-webkit-scrollbar
+{
+	width: 6px;
+	background-color: #F5F5F5;
+}
+
+.modal-body::-webkit-scrollbar-thumb
+{
+  background-color: #979797;
 }

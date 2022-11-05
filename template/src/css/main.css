@@ -893,6 +893,16 @@ pre .typ-options {
 .sidenav {
   color: var(--dark-gray);
   background-color: initial;
+  width: 18%;
+}
+
+.sidenav-search {
+  background-color: transparent;
+  width: 18%;
+}
+
+#content{
+  margin-left: 18%;
 }
 
 .sidenav>li>a {
@@ -917,9 +927,7 @@ pre .typ-options {
   font-size: 12px;
 }
 
-.sidenav-search {
-  background-color: transparent;
-}
+
 
 .sidenav-search .search {
   border-radius: 15px;
@@ -995,7 +1003,7 @@ button.btn-danger:hover {
 
 .sidenav::-webkit-scrollbar-thumb
 {
-  background-color: #4c4c4c;
+  background-color: #979797;
 }
 
 body::-webkit-scrollbar-track
@@ -1011,7 +1019,7 @@ body::-webkit-scrollbar
 
 body::-webkit-scrollbar-thumb
 {
-  background-color: #4c4c4c;
+  background-color: #979797;
 }
 
 .modal-body::-webkit-scrollbar-track
@@ -1027,5 +1035,5 @@ body::-webkit-scrollbar-thumb
 
 .modal-body::-webkit-scrollbar-thumb
 {
-  background-color: #4c4c4c;
+  background-color: #979797;
 }
