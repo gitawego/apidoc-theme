@@ -2,7 +2,9 @@
 
 a swagger like theme for [apidoc](https://github.com/apidoc/apidoc) >= v0.5x
 
-see [demo](https://gitawego.github.io/apidoc-theme/)
+[![npm version](https://badge.fury.io/js/@gitawego%2Fapidoc-theme.svg)](https://badge.fury.io/js/@gitawego%2Fapidoc-theme)
+
+## see [demo](https://gitawego.github.io/apidoc-theme/)
 
 ## How to install
 
